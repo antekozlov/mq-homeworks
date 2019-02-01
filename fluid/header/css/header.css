@@ -1,6 +1,9 @@
 .container {
-  width: 1280px;
+  max-width: 1280px;
+  min-width: 1024px;
+  width: 100%;
 }
+
 .header {
-  min-width: 1280px;
+  min-width: 1024px;
 }
