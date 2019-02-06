@@ -1,10 +1,14 @@
 .container {
-	width: 960px;
+  width: calc(100% - 406px);
+	box-sizing: border-box;
 	padding: 15px 10px;
+	max-width: 1300px;
+	min-width: 768px;
 }
 
 .card {
-	width: 428px;
+	width: calc(50% - 10px);
+	box-sizing: border-box;
 	padding: 30px 20px;
 	border: 1px solid #d5d4d4;
 	margin-bottom: 20px;
